@@ -23,8 +23,27 @@ composer.phar
 .AppleDouble
 
 # phpunit itself is not needed
-phpunit.phar
-.phpunit.result.cache
+/phpunit
 
-# composer lock
-composer.lock
+# Additional common ignores
+
+# Node modules
+node_modules/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
